@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,74 +8,130 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Mon PortFolio</title>
 </head>
+
 <body>
     <!--the header of my portFolio-->
     <header>
+
         <nav id="navbar">
-            <ul>
-                <li><img src="" alt='logo'/></li>
-                <li><a href="#">A propos de moi</a></a></li>
-                <li><a href="#">Mon CV</a></li>
-                <li><a href="#">Mes projets</a></li>
-                <li><a href="#">Mes Objectifs</a></li>
-            </ul>
+            <div class="title">
+                <h1>rokinfack</h1>
+            </div>
+            <div>
+                <a href="#appropos" class="nav-link">A propos</a></a>
+                <a href="#projets" class="nav-link">projets</a>
+                <a href="#contact" class="nav-link">contact</a>
+                <a href="#connection" class="nav-link">se connecter</a>
+            </div>
         </nav>
+        <div class="accueil">
+            <div class="accueil-left">
+                <div class="accueil-left-header">
+                    <h1>Rostand</h1>
+                    <h1>KINFACK</h1>
+                </div>
+                <div class="description">
+                    <p>Consultant developpeur web et mobiole</p>
+                </div>
+                <div class="btn">
+                    <button>contactez moi</button>
+                </div>
+            </div>
+            <div class="accueil-rigth">
+                <div class="img-contener">
+                    <figure>
+                        <figcaption>
+                            <img title="google.com" src="img/IMG_20220212_220134_229.jpg" alt="profile picture" />
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- the body of my portfolio-->
-    <main >
-        <section class="profile">
-            <section class="accueil">
-                <h1>BIENVENUE SUR MA PLATEFORME</h1>
+    <main>
+        <div class="etude">
+            <div class="F2I">
                 <figure>
-                    <img title="google.com" src="img/IMG_20220212_220134_229.jpg" alt="profile picture" />
                     <figcaption>
-                        <span>ROSTAND KINFACK</span> <br/><em>Consultant developpeur web et mobiole</em>
+                        <img src="img/F2I.jpeg" alt="étude"/>
+                        <p><span>Troisiemes années de Consultant Developpeur Web et Mobile</p></span>
                     </figcaption>
                 </figure>
-            </section>
-            <section class="message">Mon portFolio</section>
-            <section class="slider">Cascading Style sheets</section> 
-        </section>
-        <section class="tecno">
-                <h2>Langague de programmations</h2>
-                <ul>
-                    <li>HTML5/CSS3/JAVASCRIPT</li>
-                    <li>REACT JS</li>
-                    <li>PHP</li>
-                    <li>FRAMEWORK SYMFONY</li>
-                </ul>
-        </section>
-            <section class="projet">
-                <h2>projets réalisés</h2>
-                <ul>
-                    <li><a href="#">TodoList: HTML5/CSS3</a></li>
-                    <li><a href="#">Jeux de Pendu: HTML5/CSS3/JAVASCRIPT</a></li>
-                    <li><a href="#">TodoList:PHP</a></li>
-                    <li><a href="#">TodoList & CRUD:PHP</a></li>
-                    <li><a href="#">L'architecture MVC</a></li>
-                </ul>
             </div>
-            </section>
-            <div class="site">
-                <h2>suivez moi ici</h2>
-                <ul>
-                    <li><a href="https://github.com/rokinfack" target="_blank" rel="noopener">My Github</a></li>
-                    
-                </ul>
+            <div class="universite">
+                <figure>
+                    <figcaption>
+                        <img src="img/uinversite.jpeg" alt="étude"/>
+                        <p><span>Licence en physique et Aapplication :Universite de Douala au cameroun</span></p>
+                    </figcaption>
+                </figure>
             </div>
-        </section>
+        </div>
+        <div class="main">
+            <div class="main-left">
+             
+                <div class="list"> 
+                      <h2>Langages de programmation</h2>
+                      <div class="tracer"></div>
+                       <h4>HTML/CSS</h4>
+                       <h4>JAVASCRIPT</h4>
+                       <h4>PHP</h4>
+                </div>
+                <div class="list"> 
+                    <h2>outils utilisés</h2>
+                    <div class="tracer"></div>
+                    <h4>symfony</h4>
+                    <h4>MySql/phpMyAdmin</h4>
+                    <h4>react</h4>
+                    <h4>photoShop/illustrator</h4>
+                    <h4>indesign</h4>
+                </div>
+                <div class="list"> 
+                    <h2>suivez moi ici</h2>
+                    <div class="tracer"></div>
+                    <p><a href="https://github.com/rokinfack" target="_blank" rel="noopener">My Github</a></p>
+                    <p><a href="rokinfack.netlify.app">PortFolio</a></p>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="title">
+                    <h1>les réalisations</h1>
+                </div>
+                <div class="cards">
+                    <div class="tecno">
+                        <h3>une TodoList en php</h3>
+                        <i><img src="img/php.jpeg" alt="php"/></i>
+                    </div>
+                    <div class="tecno">
+                        <h3>une TodoList en HTML/CSS/Js</h3>
+                        <i><img src="img/html.jpeg" alt="php"/></i>
+                    </div>
+                    <div class="tecno">
+                        <h3>une TodoList avec symfony</h3>
+                        <i><img src="img/symfony.jpeg" alt="php"/></i>
+                        
+                    </div>
+                    <div class="tecno">
+                        <h3>une TodoList avec la bibliotheque react</h3>
+                        <i><img src="img/react.jpeg" alt="php"/></i>
+
+                    </div>
+                </div>
+          
+        </div>
 
     </main>
-        <!--the footer of my portoFolio-->
-    <footer >
-        <ul class="footer">
-            <li><a href="href"><img src="img/facebook.png" alt="faceboock"/></a></li>
-            <li><a href="href"><img src="img/linkedin.png" alt="linkedin"/></a></li>
-            <li><a href="href"><img src="img/Facebook_Messenger.png" alt="messenger"/></a></li>
-
-        </ul>
-
+    <!--the footer of my portoFolio-->
+    <footer>
+        <section class="profile">
+            <a href="href"><img src="img/facebook.png" alt="faceboock" /></a>
+            <a href="href"><img src="img/linkedin.png" alt="linkedin" /></a>
+            <a href="href"><img src="img/Facebook_Messenger.png" alt="messenger" />
+                <a href="href"><img src="img/linkedin.png" alt="linkedin" /></a>
+        </section>
     </footer>
-    
+
 </body>
+
 </html>
