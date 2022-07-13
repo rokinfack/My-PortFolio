@@ -167,3 +167,9 @@ a{
     background: var(--first-color);
     color: white;
 }
+
+/* personnalisation de mon cv */
+
+header{
+    display: flex;
+}
