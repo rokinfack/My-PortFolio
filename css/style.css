@@ -12,12 +12,16 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.header{
+    border: 2px solid black;
+}
 
 .title{
     color: var(--first-color);
 }
 #navbar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -31,6 +35,7 @@ a{
 .accueil{
     margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     margin-left: 0.5rem;
 }
 .accueil-left{
@@ -59,10 +64,15 @@ a{
     transition: all 0.3s ease-in-out;
     background: none;
     font-size: 1rem;
+    position: relative;
     width: 25%;
     cursor: pointer;
     padding: 1.5rem;
     box-shadow: 0.3em 0.3em var(--first-color),inset 0.3em 0.3em var(--first-color);
+}
+.btn button{
+    position:absolute;
+    width:100%;
 }
 .btn:hover{
     box-shadow: 0em 0em var(--first-color),inset 0em 0em var(--first-color);
@@ -70,6 +80,7 @@ a{
 .profile{
     margin: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -81,16 +92,18 @@ a{
     width: auto;
     margin-top: 2rem;
     display: flex;
-    height: 40%;
+    flex-wrap: wrap;
+    height: 100%;
   
 }
 .main-right{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content:space-around;
     margin:1rem;
     width: 75%;
-    height: 500px;
+    height:100%;
    
 }
 .title{
@@ -100,6 +113,8 @@ a{
 .cards{
     margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
+
     justify-content:space-around;
   
 
@@ -109,6 +124,8 @@ a{
     width: 300px;
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: flex-end;
     flex-direction: column;
     border-radius: 1rem;
@@ -119,6 +136,8 @@ a{
 .main-left{
     padding: 1rem;
     display: flex;
+    flex-wrap: wrap;
+
     flex-direction: column;
     width: 20%;
     box-shadow: 0.1rem 0.3rem 0.5rem;
@@ -169,4 +188,5 @@ a{
 }
 
 /* personnalisation de mon cv */
+
 
