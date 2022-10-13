@@ -1,4 +1,4 @@
-*{
+*,::after,::before{
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
@@ -60,19 +60,22 @@ a{
     font-size: 1rem;
 }
 .btn{
-    margin-top: 2rem;
+    margin-top: 1rem;
     transition: all 0.3s ease-in-out;
     background: none;
     font-size: 1rem;
     position: relative;
     width: 25%;
     cursor: pointer;
-    padding: 1.5rem;
+    padding:2rem;
     box-shadow: 0.3em 0.3em var(--first-color),inset 0.3em 0.3em var(--first-color);
 }
 .btn button{
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%);
     position:absolute;
-    width:100%;
 }
 .btn:hover{
     box-shadow: 0em 0em var(--first-color),inset 0em 0em var(--first-color);
@@ -83,6 +86,10 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.img{
+    text-align: center;
+    padding: 1rem;
 }
 .profile img{
     margin: 1rem;
@@ -188,5 +195,13 @@ a{
 }
 
 /* personnalisation de mon cv */
+@media screen and (max-width:800px){
+    .main-left{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    
+}
 
 
